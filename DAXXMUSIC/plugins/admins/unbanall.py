@@ -4,7 +4,7 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from DAXXMUSIC.utils.daxx_ban import admin_filter
 
-BOT_ID = "6560182043"
+BOT_ID = "7019315661"
 
 @app.on_message(filters.command("unbanall") & admin_filter)
 async def unban_all(_, msg):
